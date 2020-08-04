@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16792" started-at="2020-08-04T11:49:51 EDT" finished-at="2020-08-04T11:50:07 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16792" started-at="2020-08-04T11:49:51 EDT" finished-at="2020-08-04T11:50:07 EDT">
+      <class name="com.qa.darkskynet.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.darkskynet.tests.HomePageTest@60bdf15d]" name="setUp" is-config="true" duration-ms="8570" started-at="2020-08-04T11:49:51 EDT" finished-at="2020-08-04T11:49:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCheckLowestTemp()[pri:1, instance:com.qa.darkskynet.tests.HomePageTest@60bdf15d]" name="verifyCheckLowestTemp" duration-ms="3922" started-at="2020-08-04T11:49:59 EDT" description="lowest  temperature is displayed correctly" finished-at="2020-08-04T11:50:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckLowestTemp -->
+        <test-method status="PASS" signature="verifyCheckHighestTemp()[pri:2, instance:com.qa.darkskynet.tests.HomePageTest@60bdf15d]" name="verifyCheckHighestTemp" duration-ms="3850" started-at="2020-08-04T11:50:03 EDT" description="verify highest temperature is displayed correctly" finished-at="2020-08-04T11:50:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckHighestTemp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.darkskynet.tests.HomePageTest@60bdf15d]" name="tearDown" is-config="true" duration-ms="114" started-at="2020-08-04T11:50:07 EDT" finished-at="2020-08-04T11:50:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.darkskynet.tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
